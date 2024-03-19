@@ -1,0 +1,122 @@
+*{
+    
+    font-family: sans-serif;
+    font-style: bold;
+}
+#main{
+    height: 90%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: top;
+    display: flex;
+    position: fixed;
+}
+#nav{
+    justify-content: space-between;
+    align-items: start;
+    display: flex;
+}
+#nav h3{
+    border: 1.5px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+#nav i{
+    border: 1.5px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+   
+}
+#nav2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+}
+#b2{
+    
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+  font-size: 18px;
+    
+}
+#b1{
+    border: 1.5px solid black;
+ 
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+  font-size: 18px;
+}
+#he{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-46%,-80%);
+    display: flex;
+    width: 100%;
+    padding-left: 0px;
+
+}
+img{
+    height:400px;
+    width: 350px;
+    object-fit: cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-25deg);
+    z-index: 1;
+    transition: .5s ease, background-color .5s ease;
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-15deg);
+    z-index: 2;
+    transition: .5s ease, background-color .5s ease;
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+    z-index: 3;
+    transition: .5s ease, background-color .5s ease;
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-5deg);
+    z-index: 4;
+    transition: .5s ease, background-color .5s ease;
+}
+#btm-left{
+    position: absolute;
+    top: 85%;
+    font-size: 18px;
+    left: 10%;
+
+
+}
+#img-first{
+    height:400px;
+    
+    width: 350px;
+    object-fit: cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-5deg);
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 8;
+}
